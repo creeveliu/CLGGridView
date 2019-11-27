@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33BBC563238E55B200755475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BBC562238E55B200755475 /* AppDelegate.m */; };
+		33BBC566238E55B200755475 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BBC565238E55B200755475 /* SceneDelegate.m */; };
+		33BBC569238E55B200755475 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BBC568238E55B200755475 /* ViewController.m */; };
+		33BBC56C238E55B200755475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BBC56A238E55B200755475 /* Main.storyboard */; };
+		33BBC56E238E55B300755475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BBC56D238E55B300755475 /* Assets.xcassets */; };
+		33BBC571238E55B300755475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BBC56F238E55B300755475 /* LaunchScreen.storyboard */; };
+		33BBC574238E55B300755475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BBC573238E55B300755475 /* main.m */; };
+		33BBC57D238E55E500755475 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BBC57C238E55E500755475 /* GridView.m */; };
+		33BBC580238E560900755475 /* MyGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BBC57F238E560900755475 /* MyGridView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33BBC55E238E55B200755475 /* CLGGridViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLGGridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BBC561238E55B200755475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33BBC562238E55B200755475 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33BBC564238E55B200755475 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		33BBC565238E55B200755475 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		33BBC567238E55B200755475 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33BBC568238E55B200755475 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33BBC56B238E55B200755475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33BBC56D238E55B300755475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33BBC570238E55B300755475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33BBC572238E55B300755475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BBC573238E55B300755475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33BBC57B238E55E500755475 /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		33BBC57C238E55E500755475 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		33BBC57E238E560900755475 /* MyGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGridView.h; sourceTree = "<group>"; };
+		33BBC57F238E560900755475 /* MyGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGridView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33BBC55B238E55B200755475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33BBC555238E55B200755475 = {
+			isa = PBXGroup;
+			children = (
+				33BBC560238E55B200755475 /* CLGGridViewDemo */,
+				33BBC55F238E55B200755475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33BBC55F238E55B200755475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33BBC55E238E55B200755475 /* CLGGridViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33BBC560238E55B200755475 /* CLGGridViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33BBC57A238E55D000755475 /* CLGGridView */,
+				33BBC561238E55B200755475 /* AppDelegate.h */,
+				33BBC562238E55B200755475 /* AppDelegate.m */,
+				33BBC564238E55B200755475 /* SceneDelegate.h */,
+				33BBC565238E55B200755475 /* SceneDelegate.m */,
+				33BBC567238E55B200755475 /* ViewController.h */,
+				33BBC568238E55B200755475 /* ViewController.m */,
+				33BBC57E238E560900755475 /* MyGridView.h */,
+				33BBC57F238E560900755475 /* MyGridView.m */,
+				33BBC56A238E55B200755475 /* Main.storyboard */,
+				33BBC56D238E55B300755475 /* Assets.xcassets */,
+				33BBC56F238E55B300755475 /* LaunchScreen.storyboard */,
+				33BBC572238E55B300755475 /* Info.plist */,
+				33BBC573238E55B300755475 /* main.m */,
+			);
+			path = CLGGridViewDemo;
+			sourceTree = "<group>";
+		};
+		33BBC57A238E55D000755475 /* CLGGridView */ = {
+			isa = PBXGroup;
+			children = (
+				33BBC57B238E55E500755475 /* GridView.h */,
+				33BBC57C238E55E500755475 /* GridView.m */,
+			);
+			path = CLGGridView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33BBC55D238E55B200755475 /* CLGGridViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BBC577238E55B300755475 /* Build configuration list for PBXNativeTarget "CLGGridViewDemo" */;
+			buildPhases = (
+				33BBC55A238E55B200755475 /* Sources */,
+				33BBC55B238E55B200755475 /* Frameworks */,
+				33BBC55C238E55B200755475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLGGridViewDemo;
+			productName = CLGGridViewDemo;
+			productReference = 33BBC55E238E55B200755475 /* CLGGridViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33BBC556238E55B200755475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = eleme;
+				TargetAttributes = {
+					33BBC55D238E55B200755475 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 33BBC559238E55B200755475 /* Build configuration list for PBXProject "CLGGridViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33BBC555238E55B200755475;
+			productRefGroup = 33BBC55F238E55B200755475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33BBC55D238E55B200755475 /* CLGGridViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33BBC55C238E55B200755475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BBC571238E55B300755475 /* LaunchScreen.storyboard in Resources */,
+				33BBC56E238E55B300755475 /* Assets.xcassets in Resources */,
+				33BBC56C238E55B200755475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33BBC55A238E55B200755475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BBC580238E560900755475 /* MyGridView.m in Sources */,
+				33BBC569238E55B200755475 /* ViewController.m in Sources */,
+				33BBC563238E55B200755475 /* AppDelegate.m in Sources */,
+				33BBC574238E55B300755475 /* main.m in Sources */,
+				33BBC57D238E55E500755475 /* GridView.m in Sources */,
+				33BBC566238E55B200755475 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33BBC56A238E55B200755475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BBC56B238E55B200755475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33BBC56F238E55B300755475 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BBC570238E55B300755475 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33BBC575238E55B300755475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33BBC576238E55B300755475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33BBC578238E55B300755475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SR35Y6UHD;
+				INFOPLIST_FILE = CLGGridViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ele.ios.CLGGridViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33BBC579238E55B300755475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SR35Y6UHD;
+				INFOPLIST_FILE = CLGGridViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ele.ios.CLGGridViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33BBC559238E55B200755475 /* Build configuration list for PBXProject "CLGGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BBC575238E55B300755475 /* Debug */,
+				33BBC576238E55B300755475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BBC577238E55B300755475 /* Build configuration list for PBXNativeTarget "CLGGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BBC578238E55B300755475 /* Debug */,
+				33BBC579238E55B300755475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33BBC556238E55B200755475 /* Project object */;
+}
